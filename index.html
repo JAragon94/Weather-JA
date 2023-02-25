@@ -11,7 +11,54 @@
 </head>
 
 <body>
-    
+    <div class="jumpotron jumpotron-fluid bg-dark text-white p-6 mb-6">
+        <div class="container text-center">
+            <h1>Weather Dashboard</h1>
+        </div>
+    </div>
+
+    <div class="row no-gutters">
+        <div class="card w-25">
+            <div>
+                <div class="card-body bg-light">
+                    <h5 class="card-title">Search for a City:</h5>
+                    <form class="form inline" id="search-city">
+                        <div class="input-group">
+                            <div class="form-outline">
+                                <input type="search" id="search-input" class="form-control mr-0 pr-0">
+                                <button class="btn btn-dark ml-0" type="sunmit" id="search-button"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <p class="list-group-flush"><div><ul class="list-group" id="cityListGroup"></ul></div></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-75 px-3 no no-gutters">
+        <div class="container">
+            <div class="card border-dark mb-3">
+                <div class="card-header font-weight-bold text-white bg-dark">
+                    <h3><span id="currentCityName"></span> (<span id="day0-date"></span>) <img id="day0-icon" src=""></h3>
+                </div>
+                <div class="card-body text-dark">
+                    <p class="card-text">Temperature: <span id="day0-temp"></span></p>
+                    <p class="card-text">Humidity: <span id="day0-hum"></span></p>
+                    <p class="card-text">Wind Speed: <span id="day0-wind"></span></p>
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">5-Day Forecast:</h5>
+                <div class="card-deck">
+                    <div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </body>
 </html>
