@@ -9,5 +9,7 @@ You will aslo be presented with the city name, the date, an icon representation
 of weather conditions, the temperature, the humidity, and the wind speed.
 
 # Screenshot
+![Screenshot (13)](https://user-images.githubusercontent.com/120228686/221386019-796e2dff-d193-45da-a9a2-365e03aeea6a.png)
 
 # Deployed Link
+https://jaragon94.github.io/Weather-JA/
